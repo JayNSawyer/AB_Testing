@@ -131,7 +131,7 @@ export const ModalComponent = {
     }
   },
   bootstrapListeners: function() {
-    this.el.getElementById("email").addEventListener("change", this);
+    document.getElementById("email").addEventListener("change", this);
     this.el.querySelector(".close").addEventListener("click", this);
     this.el
       .querySelector(".modal_component_form")

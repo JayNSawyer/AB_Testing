@@ -133,8 +133,6 @@ export const ModalComponent = {
   bootstrapListeners: function() {
     document.getElementById("email").addEventListener("change", this);
     this.el.querySelector(".close").addEventListener("click", this);
-    this.el
-      .querySelector(".modal_component_form")
-      .addEventListener("submit", this);
+    this.el.querySelector(".modal_component_form").addEventListener("submit", this);
   }
 };

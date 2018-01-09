@@ -1,0 +1,115 @@
+/* src/app.scss */
+
+$lightgrey: #f9f9f9;
+$normal-font: #4d4d4d;
+$section-heading: #f9f9f9;
+
+pre {
+    padding: 20px;
+}
+
+body {
+    background-color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: $normal-font;
+    font-style: normal;
+    line-height: 1;
+    cursor: default;
+
+    p {
+        font-weight: 400;
+    }
+
+    #navbar {
+        background: #333333;
+        color: white;
+
+        .navbar-brand {
+        	color: white;
+        	font-weight: bold;
+        }
+    }
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+#page_component {
+    margin-top: 100px;
+
+    .jumbotron {
+        background-color: $lightgrey;
+    }
+
+    button {
+        background-color: #ff851f;
+        border-color: #e56800;
+        color: #fff;
+    }
+}
+
+#modal_component {
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+    display: none;
+    background: white;
+    border: 1px solid #ccc;
+    h2 {
+        border-bottom: 1px solid #ccc;
+        padding: 1rem;
+        margin: 0;
+    }
+    .content {
+        padding: 1rem;
+    }
+    input {
+        color: grey;
+    }
+    #states {
+        select {
+            -webkit-appearance: none;
+            -webkit-border-radius: 0px;
+            background: url('./images/drop-down-arrow.png');
+            background-size: 10px 10px;
+            background-position: 90% 50%;
+            background-repeat: no-repeat;
+            // color: grey;
+        }
+    }
+    .modal-image {
+        margin-top: -20px;
+    }
+    .btn {
+        margin: 0 auto;
+        width: 130px;
+        background-color: #ff851f;
+        border-color: #e56800;
+        color: #fff;
+        border-radius: 3px;
+    }
+    .close {
+        text-align: right;
+        padding-right: 20px;
+        color: grey;
+        opacity: 1;
+    }
+}
+
+.form-control {
+    border-radius: 0 !important;
+    width: 100% !important;
+}
+
+
+.margin-btm-20 {
+    margin-bottom: 20px;
+}
